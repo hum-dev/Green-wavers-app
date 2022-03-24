@@ -4,74 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gwavers</title>
     <link rel="stylesheet" href="style.css">
-    <title>GWavers</title>
 </head>
 <body>
-    <div class="main">
-        <div class="Top">
-            <div class="header">
-                <nav>
-                    <div class="logo">
-                        <a href="#">GWavers</a>
-                    </div>
-                    <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">ABOUT</a></li>
-                        <li><a href="">REGISTER</a></li>
-                        <li><a href="">CONTACT</a></li>
-                        <li><a href="">SUPPORT</a></li>
-                        <li><a href="">HELP</a></li>
-                    </ul>
-                </nav>
-                <div class="content">
-                    <h1>Welcome to <br><span>Green Wavers</span></h1>
-                    <p class="par">illuminating climate change in order <br>to savage human & save the planet</p>
-                    <button class="btn"><a href="#">JOIN US!</a></button>
+    <div class="navigation">
+        <h2 class="navigation__logo">Gwavers</h2>
 
-                    <div class="form reveal active fade-right">
-                        <h2>Login here</h2>
-                        <input type="email" name="email" placeholder="enter email" required>
-                        <input type="password" name="password" placeholder="enter password" required>
-                        <button class="btnn"><a href="#">Login</a></button>
-    
-                        <p class="link">Don't have an account<br>
-                        <a href="#">Sign up </a> here</p>
-                        <p class="liw">Login with</p>
-    
-                        <div class="about-svgs">
-                            <a href="#" target="_blank" class="about-svg--link">
-                                <svg class="about-svg--icon">
-                                    <use xlink:href="../images/sprite.svg#icon-facebook"></use>
-                                </svg>
-                            </a>
-                            <a href="#" target="_blank" class="about-svg--link">
-                                <svg class="about-svg--icon">
-                                    <use xlink:href="../images/sprite.svg#icon-instagram"></use>
-                                </svg>
-                            </a>
-                            <a href="#" target="_blank" class="about-svg--link">
-                                <svg class="about-svg--icon">
-                                    <use xlink:href="../images/sprite.svg#icon-twitter"></use>
-                                </svg>
-                            </a>
-                            <a href="#" target="_blank" class="about-svg--link">
-                                <svg class="about-svg--icon">
-                                    <use xlink:href="../images/sprite.svg#icon-linkedin"></use>
-                                </svg>
-                            </a>
-                            <a href="#" target="_blank" class="about-svg--link">
-                                <svg class="about-svg--icon">
-                                    <use xlink:href="../images/sprite.svg#icon-gmail"></use>
-                                </svg>
-                            </a>
-                        </div>
-    
-                    </div>
-            </div>
-                </div>
-            </div>
+        <nav class="navigation__nav">
+            <ol class="navigaion__list">
+                <li class="navigaion__item"><a href="#" class="navigation__item--link">home</a></li>
+                <li class="navigaion__item"><a href="#" class="navigation__item--link">about</a></li>
+                <li class="navigaion__item"><a href="#" class="navigation__item--link">register</a></li>
+                <li class="navigaion__item"><a href="#" class="navigation__item--link">contact</a></li>
+                <li class="navigaion__item"><a href="#" class="navigation__item--link">help</a></li>
+            </ol>
+        </nav>
+
+        <div class="nav__button-main">
+            <div class="nav__button nav__button--1"></div>
+            <div class="nav__button nav__button--2"></div>
+            <div class="nav__button nav__button--3"></div>
         </div>
     </div>
+
+    <!-- home section -->
+    <section class="hero">
+        <h1 class="hero__title">
+            <span class="hero__title--main">Welcome to <span>Green Wavers</span></span>
+            <span class="hero__title--sub">Illuminating climate change in order to salvage human and save the planet.</span>
+        </h1>
+        <a href="#" class="hero__button">Join Us</a>
+    </section>
+    <!-- end of home section -->
+    <script src="app.js"></script>
 </body>
 </html>
